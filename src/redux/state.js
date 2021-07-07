@@ -16,14 +16,25 @@ let state = {
             {id: 5, name: 'Sveta'},
             {id: 6, name: 'Victor'}
         ],
-        messages: [
+        meMessages: [
             {id: 1, message: 'Hi'},
             {id: 2, message: 'How is your it-kamasutra ?'},
-            {id: 3, message: 'Yo'},
-            {id: 4, message: 'Hi'},
+            {id: 3, message: 'What stage are you at ?'},
+            {id: 4, message: 'Wonderful.\n' +
+                    'Traveling by plane now'},
             {id: 5, message: 'Yo'}
+        ],
+        usersMessages: [
+            {id: 1, message: 'Hi'},
+            {id: 2, message: 'Excellent. Learning )'},
+            {id: 3, message: 'I got acquainted with the base.' +
+                    '\n' +
+                    'And how are you doing ?'},
+            {id: 4, message: 'Yo'},
+            {id: 5, message: 'Hi'}
         ]
-    }
+    },
+    sidebar: {}
 }
 
 export default state;

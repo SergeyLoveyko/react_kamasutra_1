@@ -1,0 +1,20 @@
+.dialogs__items {
+    display: flex;
+    align-items: center;
+}
+
+.dialogs__items a {
+    text-decoration: none;
+    color: white;
+}
+
+.dialogs__items .active {
+    color: gold;
+}
+
+.dialogs__items img {
+    width: 50PX;
+    border-radius: 15px;
+    margin: 10px 15px 10px 0;
+}
+

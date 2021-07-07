@@ -13,3 +13,16 @@
 .item a.active {
     color: gold;
 }
+
+.settings {
+    margin-top: 20px;
+}
+
+.settings a {
+    color: white;
+    text-decoration: none;
+}
+
+.settings a.active {
+    color: gold;
+}

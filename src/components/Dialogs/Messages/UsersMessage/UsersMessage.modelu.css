@@ -1,0 +1,14 @@
+.messages {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    padding: 10px;
+}
+
+.message {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.dialog {
+
+}

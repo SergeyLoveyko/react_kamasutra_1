@@ -1,0 +1,11 @@
+.messages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.message {
+    display: grid;
+    grid-template-row: 5fr;
+    padding: 10px;
+}
