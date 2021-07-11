@@ -1,3 +1,5 @@
+import {rerederEntireTree} from "../render";
+
 let state = {
     profilePage: {
         posts: [
@@ -38,7 +40,6 @@ let state = {
 }
 
 
-
 export let addPost = (postMessage) => {
     debugger;
     let newPost = {
@@ -48,6 +49,7 @@ export let addPost = (postMessage) => {
     };
 
     state.profilePage.posts.push(newPost);
+    rerederEntireTree(state);
 }
 
 
